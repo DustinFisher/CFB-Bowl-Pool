@@ -1,0 +1,105 @@
+* { padding: 0; margin: 0; }
+
+body {
+	background: url("../images/site-bg.png") repeat scroll 0 0 transparent;
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,arial,sans-serif;
+	font-size: 13px;
+}
+
+#header { 
+	background: url("../images/header-bg.png") repeat scroll 0 0 transparent;
+    border-bottom: 2px solid #FFFFFF;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    height: 60px;
+    overflow: hidden;
+}
+#header-content { margin: 0 auto; width: 900px; }
+#logo {
+    margin-top: 7px;
+}
+
+#wrapper { margin: 0 auto; width: 922px; }
+#content { 
+	width: 900px;
+	color: #333;
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+	height: 500px;
+}
+
+#leaderboard { float: left; }
+#leaderboard-container, #bowl-game-container { 
+	float: left; 
+	clear: both; 
+	width: 890px;  
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 5px; 
+}
+#leaderboard-container { height: 485px; }
+#leaderboard-left { float: left; width: 210px; margin-left: 35px; }
+#leaderboard-middle{ float: left; margin-left: 5px; width: 210px; }
+#leaderboard-right { float: left; margin-left: 5px; width: 210px; }
+
+#leaderboard-scroll { height: 450px; overflow: hidden; overflow-y:scroll; border-bottom: 2px solid #CCCCCC; }
+
+#bowl-game-title { float: left; clear: both; margin-top: 15px; }
+#leaderboard-title, #bowl-game-title { font-size: 26px; color: #222222; }
+
+#leaderboard-container ol { padding: 0px; margin: 0px; list-style-position: inside; }
+#leaderboard-container li { line-height: 2em; }
+
+#percent { color: #6890B4; font-weight: bold; font-size: 9px; }
+
+/* tables */
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(../images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+  font-size: 10px; 
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(../images/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(../images/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
+table.tablesorter tbody td.winner { background-color: #d0e3c8; }
+
+table.tablesorter tbody td.correct { background-color: #d8dadd; }
+table.tablesorter tbody td.loser { background-color: #df9d9b; }
+
+
+#pager { float: left; clear: both; margin: 10px; }
+#total_points { font-weight: bold; font-size: 14px;}
+
+#upload-form { display: none;}
