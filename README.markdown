@@ -1,10 +1,10 @@
-# CFB Bowl Pool
+# CFB-Bowl-Pool
 
-This site was developed to manages bowl pool data. It allows users to follow along with updated results after each bowl game, 
+This site was developed to manage bowl pool data. It allows users to follow along with updated results after each bowl game, 
 displays where everyone stands, and other detailed information. Excel sheets are distributed to collect user's picks. 
 The admin can import a single excel file or create a zip file to import multiple files at one time.
 
-Working Example: [2011 Bowl Pool](http://sportsbark.com/gbg)
+Example: [2011-Bowl-Pool](http://sportsbark.com/gbg)
 
 ### Why it was developed?
 
